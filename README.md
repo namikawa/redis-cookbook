@@ -1,7 +1,7 @@
 redis Cookbook
 ==============
 
-[ToDo] ただいま作成中...
+Redis / Redis Sentinel を同一サーバで稼働させるための Chef Cookbook。
 
 Requirements / Notice
 ---------------------
@@ -13,7 +13,7 @@ Requirements / Notice
 Usage
 -----
 
-ToDo
-----
+依存している Cookbook (`sysctl`, `limits`) があるため、 Berkshelf の利用を推奨。
 
+Redis の設定パラメータについては、 `attributes/` 配下を参照のこと。
 
