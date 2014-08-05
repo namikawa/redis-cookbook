@@ -8,8 +8,13 @@
 #
 
 # install
-package "gperftools-libs" do
-  action :install
+%w{
+  jemalloc-devel
+  gperftools-libs
+}.each do |pkg|
+  package pkg do
+    action :install
+  end
 end
 
 file = node['redis']['rpmfile']

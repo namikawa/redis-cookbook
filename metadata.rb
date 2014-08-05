@@ -1,5 +1,5 @@
 name             'redis'
-maintainer       'YOUR_COMPANY_NAME'
+maintainer       'Yuuki NAMIKAWA'
 maintainer_email 'YOUR_EMAIL'
 license          'All rights reserved'
 description      'Installs/Configures redis'
