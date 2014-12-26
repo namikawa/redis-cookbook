@@ -1,5 +1,6 @@
 # Added by ChefSpec
 require 'chefspec'
+require 'chefspec/berkshelf'
 
 # Uncomment to use ChefSpec's Berkshelf extension
 # require 'chefspec/berkshelf'
